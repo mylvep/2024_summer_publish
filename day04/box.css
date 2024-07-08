@@ -1,0 +1,17 @@
+.box {
+  width: 300;
+  height: 300;
+  border: 1px solid pink;
+}
+.red {
+  background-color: red;
+  height: 100px;
+}
+.blue {
+  background-color: blue;
+  height: 100px;
+}
+.green {
+  background-color: green;
+  height: 100px;
+}

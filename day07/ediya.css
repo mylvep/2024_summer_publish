@@ -1,0 +1,46 @@
+.box{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 300px;
+}
+.box:hover{
+    width: 505px;
+    height: 60%;
+    transition: all 0.5s;
+}
+
+.meag {
+  width: 100%px;
+  height: 60%;
+}
+
+.mega > img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.name{
+    font-size: 22px;
+    font-weight: 60px;
+    border-bottom: 1px solid #c7c7c7;
+    padding-bottom: 20px;
+
+}
+.engname{
+    margin-top: 5px;
+    color: #c7c7c7;
+    font-size: 14px;
+}
+.info{
+    margin-top: 15px;
+    color: #c7c7c7;
+    font-size: 14px
+}
+
+
+
+
+
+/*hover:둥둥뜨다*/
+/*마우스를 올리면 바뀌어요*/

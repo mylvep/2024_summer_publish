@@ -1,0 +1,32 @@
+.menu{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.item {
+  width: 300px;
+  height: 500px;
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.imgbox {
+  width: 100%;
+  height: 60%;
+}
+.imgbox > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.name {
+  color: grey;
+}
+.presentbutton {
+  color: white;
+  background-color: #234c84;
+  font-size: 700;
+  padding: 5px;
+}

@@ -1,0 +1,43 @@
+.palette {
+  display: flex;
+  flex-direction: column;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+}
+.box {
+  width: 100px;
+  height: 100px;
+}
+.one {
+  background-image: url("Europe.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.two {
+  background-color: #2ecc71;
+}
+.three {
+  background-color: #3498db;
+  position: relative;
+}
+.four {
+  background-color: #9b59b6;
+}
+.five {
+  background-color: #34495e;
+  position: relative;
+}
+.six {
+  background-color: #16a085;
+}
+.seven {
+  background-color: #27ae60;
+}
+.eight {
+  background-color: #2980b9;
+}
+.nine {
+  background-color: #e74c3c;
+}

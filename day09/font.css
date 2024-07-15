@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Kirang+Haerang&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Gasoek+One&family=Kirang+Haerang&display=swap");
+@font-face {
+    font-family: 'CHOGOONCHICKENSCRATCHV3';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2406-2@1.0/CHOGOONCHICKENSCRATCHV3.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+.morning{
+     font-family: 'CHOGOONCHICKENSCRATCHV3';
+}
+.lunch {
+  font-family: "Kirang Haerang", system-ui;
+}
+
+
+.dinner {
+  font-family: "Bagel Fat One", system-ui;
+}
+body{
+    width: 100vw;
+    height: 300vh;
+    background-color: skyblue;
+}
+.menu{
+    padding: 20px;
+    border: 3px solid pink;
+    width: fit-content;
+    font-size: 30px;
+
+    position: fixed;
+    bottom: 100px;
+    right: 100px;
+    /*top or bottom:0px*/
+    /*left or light:0px*/
+
+}

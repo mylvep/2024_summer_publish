@@ -1,0 +1,33 @@
+.moto {
+  width: 100vw;
+  padding: 100PX 0 100PX 0;
+  background-color: white;
+}
+
+.motto__container {
+  width: 100px;
+  max-width: 96px;
+  margin: 0 auto;
+  /*가운데로*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.motto__contents {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+  font-family: "Pretendard-Regular";
+  font-size: 32px;
+    color: #757575;
+
+}
+.next{
+    margin-top: 30px;
+}
+.hasblack{
+    color: black;
+}
